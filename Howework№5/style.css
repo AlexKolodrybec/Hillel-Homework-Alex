@@ -1,0 +1,73 @@
+body {
+    background-color: yellow;
+    height: 3000px;
+    margin: 0;
+}
+
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-photo {
+    width: 1200px;
+}
+
+.navigation {
+    background-color: chartreuse;
+}
+
+.list {
+    margin: 0;
+}
+
+.nav-list {
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-link {
+    display: block;
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+}
+
+.search {
+    color: black;
+    margin-left: 400px;
+    padding: 10px 50px 10px 50px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%234E4C4C' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='M10 2a8 8 0 104.906 14.32l5.387 5.387a1 1 0 001.414-1.414l-5.387-5.387A8 8 0 0010 2zm-6 8a6 6 0 1112 0 6 6 0 01-12 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10px 40px 10px 40px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+section {
+    background-color: #fff;
+    width: 1200px;
+    height: 2850px;
+    }
+
+    .card {
+        background-color: blue;
+        display: inline-block;
+        width: 200px;
+        height: 400px;
+        margin: 21px;
+        padding: 27px;
+        text-align: center;
+        color: #fff;
+    }
+    
