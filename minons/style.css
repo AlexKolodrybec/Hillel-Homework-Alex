@@ -3,9 +3,6 @@
 
 body {
     margin: 0;
-}
-
-main {
     background-color: yellow;
 }
 
@@ -52,6 +49,23 @@ a {
    padding: 12px 40px;
    text-decoration: none;
    
+}
+
+.balance {
+    position: absolute;
+    top: 190px;
+    left: 495px;
+}
+
+.sale {
+    position: absolute;
+    left: 495px;
+    top: 457px;
+}
+
+.star {
+    position: absolute;
+    top: 190px;
 }
 
 
