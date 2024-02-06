@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;700&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    background-color: #3F3D56;
+    height: 728px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    width: 415px;
+    Height: 30px;
+    font-size: 26px;
+}
+
+.nav-item {
+   margin-right: 50px;
+   margin-top: 50px;
+}
+
+.nav-link {
+    color: #00BFA6;
+}
+
+.home {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.tutors {
+    font-family: Poppins;
+    font-weight: 500;
+}
+.sign-up {
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.header-text {
+
+margin-top: 180px;
+color: #fff;
+width: 511px;
+font-family: Poppins;
+font-weight: 600;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.subtitle {
+    Width: 464px;
+    Height: 70px;
+    font-size: 16px;
+    line-height: 35px;
+    opacity: 70%;
+}
+
+.button {
+    border: 1px solid #000000;
+    border-radius: 100px;
+    background-color: #00BFA6;
+    padding: 13px 34px;
+    margin-top: 60px;
+}
+
+.header-button-link {
+    font-family: Poppins;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image-flex {
+    margin-top: 196px;
+}
+
+.section {
+    background-color: #fff;
+    height: 453px;
+}
+
+.section-text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.section-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 32px;
+}
+
+.button-section {
+    background-color: #00BFA6;
+    padding: 17px 15px;
+    border-radius: 100px;
+    color: #fff;
+}
+
+.button-link {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.footer {
+    height: 553px;
+    background-color: #252333;
+    
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-items {
+    margin-top: 160px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48.51px;
+    color: #fff;
+}
+
+.footer-items-background {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38.81px;          
+    color: #fff;
+   margin-top: 8px;
+}
+
+.footer-items-link {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38.81px;          
+    color: #fff;
+}
+
+.footer-list-background {
+    margin-top: 24px;
+}
+
+.section-footer {
+    max-width: 1440px;
+    background-color: #252333;
+}
+
+.footer-items-findMentors {
+color: #00BFA6;
+font-family: Poppins;                                          
+font-weight: 600;
+font-size: 26px;
+ line-height: 30.16px;
+}
+
+.footer-items-background-findMentors {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
