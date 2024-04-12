@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    padding: 27px 0 27px 0;
+    
+}
+
+.nav-link-logo {
+    align-self: center;
+}
+
+.nav-list {
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-self: center;
+}
+
+.nav-item {
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: center;
+padding: 12px 20px;
+}
+
+.nav-item-link {
+    color: #fff;
+}
+
+.nav-item-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+}
+
+.nav-item-button:hover {
+    background: rgba(162, 89, 255, 1);
+    transition-duration: 2ms;
+}
+
+.header-image  {
+    background-image: url(https://s3-alpha-sig.figma.com/img/85c0/8b92/890ad3bb78d42a6892b85871b782b103?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QLptge0gtqThD1SwjAl5C8plD2D9UvTP7EgumCLGYflWjGlCitIRVt0MyHSf7IE1OJyTJo5dUov8d3oqd0ois~xWAymZek45EY7Pi6WyHJmO~mvaThHVppmAYsgmPJXQxghb1-CKkGXrr9KLi4mbPsv1jGssnpFpm1CcszZfU8IzkSd1l-KePpNvBtGC0fZHfYFMNc3Jmc4hboRM4-AN0x1U3xxHG2wqAWSg73LIQ62usdJd7jejHOac-PDDB6nhab9DiutaI2xS9RHwlWsnjHXuJL5QO9iUCeUuy2uDZy-IlXpmC4P-2JygHpb9o1-OYlpN4xBgzDURnX038o7Uug__);
+    background-position:center center;
+   background-size:cover;
+   width:1280px;
+   height:560px;
+}
+
+
+
+.artist-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 115px;
+}
+
+.nft-info {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.headline-subhead {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.headline-subhead h2 {
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+    text-align: left;
+}
+
+.headline-subhead p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: rgba(133, 133, 132, 1);   
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.create-by {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create-by-text {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: left;
+    color: rgba(133, 133, 132, 1);  
+}
+
+.create-artist-info {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.create-artist-info img {
+width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 120px;
+opacity: 0px;
+}
+
+.create-artist-info h5 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: left;   
+    color: #fff; 
+}
+
+.description {
+
+}
+
+.description h5 {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: left;   
+    color: rgba(133, 133, 132, 1); 
+}
+
+.description p {
+    width: 605px;
+    height: 595px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left; 
+    margin-top: 10px;
+}
+
+.details {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.details h5 {
+font-family: Space Mono;
+font-size: 22px;
+font-weight: 700;
+line-height: 35.2px;
+text-align: left;
+color: rgba(133, 133, 132, 1);
+}
+
+.website-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.website-link a {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} 
+
+.website-link a p {
+text-decoration: none;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.2px;
+text-align: left;
+color: #fff;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tags h5 {
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+color: rgba(133, 133, 132, 1);
+} 
+
+.tags-frame {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+.button-frame {
+    width: 150px;
+    height: 46px;
+    padding: 0 30px 0 30px;
+    gap: 12px;
+    border-radius: 20px;
+    opacity: 0px;  
+    background: rgba(59, 59, 59, 1);  
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.auction-timer-button {
+    width: 295px;
+height: 234px;
+padding: 30px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+border-radius: 20px;
+opacity: 0px;
+background: rgba(59, 59, 59, 1);
+}
+.auction-timer-paragraph {
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+
+}
+.timer {
+    display: flex;
+    gap: 10px;
+}
+.time-div {
+
+}
+.time {
+font-family: Space Mono;
+font-size: 38px;
+font-weight: 700;
+line-height: 45.6px;
+text-align: left;
+
+}
+.time-name {
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+
+}
+.points {
+font-family: Space Mono;
+font-size: 28px;
+font-weight: 700;
+line-height: 39.2px;
+text-align: left;
+}
+
+.timer-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.button-link {
+
+}
+
+.button-link svg:hover {
+    
+}
+
+.button-link p {
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: center;
+}
+
+.nft-cards {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 469px 469px 469px;
+    gap: 30px;
+}
+.nft-card {
+    width: 330px;
+    height: 469px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;    
+}
+.nft-image {
+    
+}
+.nft-img {
+width: 330px;
+height: 295px;
+gap: 0px;
+border-radius: 20px 20px 0 0;
+opacity: 0px;
+}
+.nft__info {
+    background: rgba(59, 59, 59, 1);
+}
+.artist-info {
+}
+.nft-name {
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+
+}
+.artist-avatar-name {
+    display: flex;
+    gap: 12px;
+}
+.artist-avatar {
+    width: 24px;
+height: 24px;
+gap: 0px;
+border-radius: 120px 0px 0px 0px;
+opacity: 0px;
+
+}
+.artist-name {
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.price-paragraph {
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+
+}
+.price-eth {
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+}
+.highest-bind {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.highest-bind-paragraph {
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+}
+.highest-bind-eth {
+    font-family: Space Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+}

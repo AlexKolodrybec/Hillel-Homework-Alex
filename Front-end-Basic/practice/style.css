@@ -1,0 +1,1220 @@
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+.header {
+    background-color: #2B2B2B;
+}
+
+.navigation {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    width: 32px;
+height: 32px;
+color: #A259FF;
+align-self: center;
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 34px 0 34px 50px;
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+.site-name {
+   font-size: 16px;
+   font-weight: bold;
+   align-self: center;
+   padding-top: 3px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 50px 20px 0;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.nav-item-button {
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.nav-button {
+    background: #A259FF;
+
+}
+
+.nav-button-link {
+    color: #fff;
+}
+
+.hero-section-frame {
+    margin: 80px 115px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.hero-text-button-info {
+    width: 510px;
+    margin-bottom: 80px;
+}
+
+.hero-text {
+
+}
+
+.hero-title {
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 73.7px;
+    margin-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero-button {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.section-hero-button {
+ padding: 20px 70px;
+ background-color: #A259FF;
+ border-radius: 20px;
+}
+
+.section-hero-button-link {
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+}
+
+.additional-info {
+
+}
+
+.additional-info-list {
+ display: flex;
+ gap: 30px;
+}
+
+.additional-info-item {
+width: 150px;
+}
+
+.additional-info-title {
+font-family: "Space Mono", monospace;
+font-size: 28px;
+font-weight: 700;
+line-height: 39px;
+}
+
+.additional-info-subtitle {
+font-family: "Work Sans", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 38px;
+}
+
+.hero-NFT {
+width: Fill (510px);
+height: Fixed (109px);
+border-radius: 0px, 0px, 20px, 20px;
+gap: 10px;
+padding: 20px;
+}
+
+.hero-nft-image {
+    width: 500px;
+    height: 401px;
+    border-radius: 20px 20px 0 0;
+}
+
+.hero-text-avatar {
+    background: rgba(59, 59, 59, 1);
+    border-radius: 0 0 20px 20px;
+}
+
+.hero-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 22px 20px 10px 20px;
+}
+
+.hero-icon-name {
+display: flex;
+flex-direction: row;
+gap: 12px;
+}
+
+.hero-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 120px; 
+    margin-left: 20px;   
+    margin-bottom: 22px;
+}
+
+.hero-name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    
+}
+
+.title-text {
+ margin: 80px 117px 0 117px;
+}
+
+.title-h3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paragraph-title {
+    font-family: "Work Sans", sans-serif;;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.collection-card {
+    width: Fixed (330px);
+    height: Hug (525px);
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.collection-main-image {
+width: 330px;
+height: 330px;
+border-radius: 20px;
+}
+
+.collection-photos {
+display: grid;
+grid-template-columns: 100px 100px 100px;
+gap: 15px;
+margin-top: 15px;
+}
+
+.image-collection {
+width: 100%;
+border-radius: 20px;
+}
+
+.number-div {
+    background: #A259FF;
+    padding: 32px, 15px, 32px, 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.number-additional {
+padding-top: 32px;
+font-family: "Work Sans", sans-serif;;
+font-size: 22px;
+font-weight: 700;
+line-height: 35px;
+}
+
+
+.collection-info {
+margin-top: 15px;
+}
+
+.collection-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.artist-card {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.artist-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;    
+}
+
+.artist-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.collection-card-flex {
+    display: flex;
+    gap: 30px;
+    margin: 60px 115px 0 115px;
+}
+
+.section-headline {
+display: flex;
+flex-direction: row;
+margin: 80px 115px 0 115px;
+justify-content: space-between;
+}
+
+.headline-text-paragraph {
+
+}
+
+.headline-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.headline-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.headline-button {
+    align-self: flex-end;
+    
+}
+
+.rocket-launch-button {
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    padding: 20px 60px;
+    background-color: #2B2B2B;
+    
+}
+
+.rocket-launch-button-link {
+color: #fff;
+font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.artist-card-group {
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    text-align: center;
+    background: #3B3B3B;
+}
+
+.artist-cards-3 {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 240px 240px 240px;
+    margin: 60px 115px 0 115px;
+    gap: 30px;
+}
+
+.artist-card-image {
+margin-top: 5px;
+width: 120px;
+height: 120px;
+border-radius: 100px;
+}
+
+.artist-info-title {
+font-family: "Work Sans", sans-serif;
+font-size: 22px;
+font-weight: 600;
+line-height: 31px;
+letter-spacing: 0em;
+margin-top: 20px;
+}
+
+.artist-total-sales {
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+color: #858584;
+}
+
+.artist-eth {
+
+font-family: "Space Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.artist-additional-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.ranking-numbers {
+    background: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 8px;
+    bottom: 202px;
+}
+
+.ranking-numbers {
+font-family: "Space Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #858584;
+
+    }
+
+    .browse-categories {
+margin: 80px 115px 0 115px;
+    }
+
+    .browse-categories-text {
+font-family: "Work Sans", sans-serif;
+font-size: 38px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.category-cards-grid {
+    margin: 60px 115px 0 115px;
+    display: grid;
+    grid-template-columns: repeat(4,240px);
+    grid-template-rows: 316px 316px;
+    gap: 30px;
+
+}
+
+.category-card {
+    width: 100%;
+}
+
+.category-image {
+    width: 240px;
+    height: 240px ;   
+    border-radius: 20px 20px 0 0;
+    filter: blur(2px);
+}
+
+
+.category-card-name {
+padding: 20px 30px 25px 30px;
+background-color: #3B3B3B;
+border-radius: 0 0 20px 20px;
+}
+
+.category-card-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.headline-button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 115px 0 115px;
+}
+
+.section-headline-text {
+
+}
+
+.section-headline-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section-headline-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.section-headline-button {
+    align-self: self-end;
+}
+
+.headline-button-see-all {
+    border: 2px solid #A259FF;
+    padding: 20px 70px;
+    border-radius: 20px;
+    background-color: #2B2B2B;
+    font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.headline-button-see-all:hover {
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+background-color: #A259FF;
+}
+
+.headline-button-link {
+color: #fff;
+}
+
+
+.NFT-cards-grid {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  grid-template-rows: 469px;
+  margin: 60px 115px 0 115px;
+  gap: 30px;
+}
+
+.NFT-card {
+
+}
+
+.NFT-card-img {
+
+}
+
+.NFT-img {
+height: 100%;
+width: 330px;
+height: 296px;
+border-radius: 20px 20px 0 0;
+}
+
+.NFT-card-information {
+    background-color: #3B3B3B;
+    border-radius: 0 0 20px 20px;
+}
+
+.artst-info {
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 25px;
+}
+
+.artst-info-title {
+    padding-top: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.artist-avatar-and-name {
+ display: flex;
+ flex-direction: row;
+ gap: 12px;
+ margin-top: 5px;
+}
+
+.artist-avatar-nft {
+    width: 24px;
+    height: 24px;
+    border-radius: 120px;
+    
+}
+
+.artist-nft-paragraph {
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.additional-info-NFT {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0 30px 0 30px;
+}
+
+.price-NFT {
+ margin-bottom: 25px;
+}
+
+
+.price {
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#858584;
+}
+
+.NFT-ETH-price {
+font-family: "Space Mono", monospace;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.highest-bind {
+
+}
+
+.highest-bind-paragraph {
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#858584;
+}
+
+.highest-bind-wETH {
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.NFT-info-container {
+background: linear-gradient(
+    180deg, 
+    rgba(162, 89, 255, 0) 0%, 
+    #A259FF 100%
+    ) , url("https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GlmDzdQXxp1wQiUvrYAv5tXhEQGaLLxCRym~D-6S1Bw~wa618rUeDwMSx9o75GJR9WTcNAOzwgweT6zE2eDdOfBFMFM1JAJAVu~xiw2ulQv8TwB8LHpebPsQ3uWyR5ZJwxYHg0~3BKeQaKxwVkQvfEKO9eJycWmJ-P0AEbmCnTf11AFCQrEKfJ4QNeT5wzJeq6ixSkIWMMjkFzk6wTyEC-B2Gx6qzKz5iDlpliNW3f~ZYaG4T8vo3XLKFK8xQ977m0CgmD-cXlEp~h8abWQEbDKKRU9gnS50Zr9NPTqbvpYrhRwZS7MMcAWtmpMkVzh8DM~iwiEIv8jXn5sg43OSYQ__");
+    margin-top: 60px;
+    width: 1,280px;
+    height: 640px;
+    padding: 360px 115px 60px 115px;
+}
+
+.frame-240 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NFT-artst-name-button {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.artist-card-frame {
+    display: flex;
+    background-color: #3B3B3B;
+    width: 151px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    gap: 12px;
+}
+
+.avatar-frame-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 120px;    
+}
+
+.avatar-frame-name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.artist-card-frame-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.button-frame-div {
+display: flex;
+flex-direction: row;
+background-color: #fff;
+width: 198px;
+height: 60px;
+padding: 22px 50px 22px 50px;
+border-radius: 20px;
+gap: 12px;
+text-align: center;
+}
+
+.eye-frame-img {
+    align-self: center;
+}
+
+.button-frame {
+align-self: center;
+}
+
+.button-frame-link {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #2B2B2B;
+}
+
+.auction-timer {
+align-self: flex-end;
+width: 295px;
+height: 144px;
+padding: 30px;
+border-radius: 20px;
+gap: 10px;
+background: #3B3B3B80;
+}
+
+.auction-end {
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.frame-timer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.timer-frame {
+    
+}
+
+.timer {
+    font-family: "Space Mono", monospace;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.frame-sub-text {
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.frame-points{
+    font-family: "Space Mono", monospace;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.section-how-it-works {
+gap: 10px;
+margin: 80px 115px 0 115px;
+}
+
+.section-how-it-works-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.section-how-it-works-subtitle {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.section-how-it-works-grid {
+display: grid;
+grid-template-columns: 330px 330px 330px;
+grid-template-rows: 439px;
+margin: 48px 115px 0 115px;
+gap: 30px;
+}
+
+.section-how-it-works-info-card {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+}
+
+.section-how-it-works-icons {
+
+}
+
+.section-how-it-works-icon {
+
+}
+
+.section-how-it-works-card-details {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 20px 10px 0 10px;
+}
+
+.section-how-it-works-card-details-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.section-how-it-works-card-details-subtitle {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.589);
+
+}
+
+.subscribe-widget {
+margin: 120px 115px 0 115px;
+background: rgba(59, 59, 59, 1);
+display: flex;
+flex-direction: row;
+gap: 80px;
+padding: 60px;
+border-radius: 20px;
+}
+
+.subscribe-image {
+    width: 400px;
+    height: 310px;
+    border-radius: 20px;    
+}
+
+.subscribe-frame {
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.headline-subhead-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headline-subhead-title {
+    font-family: "Work Sans", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.headline-subhead-subtitle {
+    font-family: "Work Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.subscribe-form {
+background-color: #fff;
+width: 425px;
+height: 60px;
+padding: 16px 0px 16px 20px;
+border-radius: 20px;
+gap: 12px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.subscribe-text {
+font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(43, 43, 43, 1);
+align-self: center;
+}
+
+.subscribe-button {
+    width: 200px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.subscribe-email-image {
+align-self: center;
+}
+
+.subscribe-button-link {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #fff;
+    align-self: center;
+
+}
+
+.subscribe-button-frame {
+    align-self: center;
+    
+}
+
+.footer {
+margin-top: 80px;
+width: 1,280px;
+height: 334px;
+padding: 40px 115px 40px 115px;
+gap: 30px;
+background: rgba(59, 59, 59, 1);
+}
+
+
+.footer-info {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.nft-marketplace-icon-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.nft-marketplace-img {
+    margin-top: 3px;
+}
+
+.nft-marketplace-additional-info {
+margin-top: 30px;
+width: 238px;
+height: 129px;
+}
+
+.nft-marketplace-additional-info-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.nft-marketplace-community-info {
+    margin-top: 20px;
+}
+
+    
+.nft-marketplace-community-info-paragraph {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+
+.nft-marketplace-community-info-icons {
+margin-top: 15px;
+display: flex;
+gap: 10px;
+}
+
+.footer-explore {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.explore-title {
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.explore-pages {
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.explore-link {
+font-family: "Work Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(204, 204, 204, 1);
+}
+
+.footer-subscribe {
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.subscribe-title {
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subscribe-form-info {
+    display: flex;
+    flex-direction: column;
+gap: 25px;
+}
+
+.subscribe-subtitle {
+    width: 330px;
+    height: 44px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.subscribe-button-footer {
+    width: 420px;
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;   
+    justify-content: space-between;
+    background-color: #fff; 
+}
+
+.subscribe-footer-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(43, 43, 43, 1);
+    align-self: center;
+}
+
+.subscribe-footer-button {
+    width: 179px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    gap: 12px;  
+    background-color: rgba(162, 89, 255, 1);
+    align-self: center;
+}
+
+.subscribe-footer-button-link {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;  
+    color: #fff;  
+}
+
+.footer-divider {
+    margin-top: 30px;
+    border: 1px solid rgba(133, 133, 132, 1)
+}
+
+.footer-subtitle-paragraph {
+    margin-top: 20px;
+font-family: "Work Sans", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(204, 204, 204, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap')

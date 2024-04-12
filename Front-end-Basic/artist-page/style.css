@@ -1,0 +1,92 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+
+
+.navigation {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    width: 32px;
+height: 32px;
+color: #A259FF;
+align-self: center;
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 34px 0 34px 50px;
+}
+
+.nav-menu {
+     margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.site-name {
+   font-size: 16px;
+   font-weight: bold;
+   align-self: center;
+   padding-top: 3px;
+
+}
+
+.nav-list {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 50px 20px 0;
+}
+
+.nav-item {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+
+.nav-item-button {
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+button {
+    background: #A259FF;
+    
+}
+
+.nav-button-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cover-profile-image img {
+    width: 1280px;
+    background: linear-gradient(180deg, rgba(151, 71, 255, 0) 21.88%, #9747FF 95.31%);
+}
+
+
+.profile-image img {
+    width: 120px;
+height: 120px;
+gap: 10px;
+border-radius: 20px;
+border: 2px solid rgba(43, 43, 43, 1);
+opacity: 0px;
+position: relative;
+left: 100px;
+bottom: 50px;
+}
+
