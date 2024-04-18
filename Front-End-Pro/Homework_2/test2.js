@@ -1,11 +1,8 @@
-const firstName = prompt("Введіть ваше ім'я");
-const lastName = prompt("Введіть ваше прізвище");
-const age = prompt("Введіть скільки вам років");
+let firstName = prompt("Введіть ваше ім'я");
+let lastName = prompt("Введіть ваше прізвище");
+let age = prompt("Введіть скільки вам років");
 
-const information = `
-${firstName}
-${lastName}
-${age} років
-`;
-
-alert(information);
+alert(`
+${firstName} 
+${lastName} 
+${age} років`);
