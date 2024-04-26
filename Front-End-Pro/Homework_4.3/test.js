@@ -11,6 +11,7 @@ const age = 2024 - yearOfBirth;
 alert(`Ваш вік: ${age}`);
 
 if (cityLives) {
+    cityLives = cityLives.toLowerCase();
     switch (cityLives) {
        case "Київ":
         alert('Ти живеш у столиці України');
@@ -30,6 +31,7 @@ if (cityLives) {
 };
 
 if (sport) {
+    sport = sport.toLowerCase();
     switch (sport) {
        case "Футбол":
         alert('Круто! Хочеш стати як Пеле?');
