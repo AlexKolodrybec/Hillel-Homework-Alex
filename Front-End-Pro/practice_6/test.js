@@ -1,12 +1,7 @@
-let userNumber = prompt("Введіть ціле число:");
-
-if (userNumber) {
-    let num = 1;
-
-    while (num * num <= userNumber && num <= 100) {
-        console.log(num * num);
-        num++;
-    }
- 
+function pow(a, b) {
+    return a ** b
 }
 
+console.log(pow(3, 2))
+console.log(pow(3, 3))
+console.log(pow(1, 1))
