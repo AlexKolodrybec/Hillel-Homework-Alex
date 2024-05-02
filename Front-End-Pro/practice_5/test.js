@@ -1,4 +1,13 @@
-let num1 = prompt("Введіть число")
-let num2 = prompt("Введіть число")
+function generateCode(n) {
+    let randomNumbers = ''; 
+    
+    for (let num = 0; num < n; num++) {
+        randomNumbers += Math.floor(Math.random() * 10); 
+    }
+    
+    return randomNumbers;
+}
 
-let comparison = num1 >= num2 ?
+var randomNumbers = generateCode(6);
+
+console.log(randomNumbers);

@@ -1,19 +1,14 @@
-let num = prompt("Введіть число")
+function count() {
+    let counter = 0; 
 
-num = parseInt(num);
-
-switch (num) {
-    case 1:
-        console.log("a");
-    break;
-
-    case 2:
-        console.log("b");
-    break;
-    case 3:
-        console.log("c");
-    break;
-
-    default:
-        console.log("UA");
+    return function() {
+        counter++;
+        console.log(counter);
+    };
 }
+
+const counterPlus = count();
+
+counterPlus(); 
+counterPlus();
+counterPlus();

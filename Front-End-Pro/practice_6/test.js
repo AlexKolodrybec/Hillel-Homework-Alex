@@ -1,7 +1,10 @@
-function pow(a, b) {
-    return a ** b
+let numbers = [1, 2, 3, 4, 5];
+
+function addToArr(arr, num) {
+    arr.push(num);
 }
 
-console.log(pow(3, 2))
-console.log(pow(3, 3))
-console.log(pow(1, 1))
+let newNumber = 6;
+addToArr(numbers, newNumber);
+
+console.log(numbers);
