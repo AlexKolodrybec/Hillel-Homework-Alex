@@ -14,5 +14,5 @@ function numberFunction() {
     }
 }
 
-let lastInput = numberFunction();
-console.log(lastInput);
+let number = numberFunction();
+console.log(number);
