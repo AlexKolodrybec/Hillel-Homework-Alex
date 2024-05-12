@@ -1,13 +1,21 @@
-function generateCode(n) {
-    let randomNumbers = ''; 
-    
-    for (let num = 0; num < n; num++) {
-        randomNumbers += Math.floor(Math.random() * 10); 
-    }
-    
-    return randomNumbers;
+function sum() {
+    let numbers = [];
+
+    do {
+        let userInput = prompt('Введіть число');
+
+        if (userInput === '' || userInput === null || isNaN(userInput)) {
+            break;
+        }
+
+        numbers.push(+userInput);
+    } while(true)
+
+    let sum = numbers.reduce(function(total, current) {
+        return total + current;
+    }, 0);
+
+    return sum;
 }
 
-var randomNumbers = generateCode(6);
-
-console.log(randomNumbers);
+console.log(sum());
