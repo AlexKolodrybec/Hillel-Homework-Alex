@@ -3,36 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <style>
-        .hidden {
-            display: none;
-        }
-        .red-link {
-            color: red;
-        }
-    </style>
 </head>
 <body>
     <div>
-        <h2>Dropdown Список</h2>
-        <button id="toggleButton">Приховати/Відкрити</button>
-        <ul id="dropdownList" class="hidden">
-            <li><a href="#">Link</a></li>
-        </ul>
+        <h1>Розмір:</h1>
+        <input type="range" id="slider" min="1" max="10" value="5">
     </div>
+    <img id="image" src="./img/MainAfter.webp" alt="img">
 </body>
-<script>
-    document.getElementById('toggleButton').addEventListener('click', function() {
-            const dropdownList = document.getElementById('dropdownList');
-            if (dropdownList.classList.contains('hidden')) {
-                dropdownList.classList.remove('hidden');
-                const newLink = document.createElement('li');
-                newLink.innerHTML = '<a href="#" class="red-link">Нове посилання</a>';
-                dropdownList.appendChild(newLink);
-            } else {
-                dropdownList.classList.add('hidden');
-            }
-        });
+<script src="./test.js">
 </script>
 </html>
 

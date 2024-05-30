@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <form id="form">
+        <h1>We would like to help you</h1>
+        <div class="contact">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <div id="nameError" class="error"></div>
+        </div>
+        <div class="contact">
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+            <div id="messageError" class="error"></div>
+        </div>
+        <div class="contact">
+            <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+            <div id="phoneError" class="error"></div>
+        </div>
+        <div class="contact">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <div id="emailError" class="error"></div>
+        </div>
+        <button type="submit">Send message</button>
+    </form>
+</body>
+<script src="./test.js"></script>
+</html>
